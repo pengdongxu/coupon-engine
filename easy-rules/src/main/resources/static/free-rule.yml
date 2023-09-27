@@ -1,0 +1,7 @@
+#免单券
+name: "免单券规则"
+description: "当只有一个项目的时候，且项目编码是相等的"
+priority: 2
+condition: "order.getProjects().size() == 1 && \"AZ001\".equals(order.getProjects().get(0).getCode())"
+actions:
+  - "if(1==1){System.out.println(\"免单券符合规则\");}"
