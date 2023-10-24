@@ -3,6 +3,6 @@ spring:
     redis:
       host: 8.136.221.119
       port: 6379
-      password: Root123
+      password: 123123123
 server:
   port: 8899
